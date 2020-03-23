@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<script type="text/javascript">
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if (isAndroid) {
+  // Do something!
+  // Redirect to Android-site?
+  window.location.replace('https://play.google.com/store/apps/details?id=app.norona.ab');
+} else {
+  window.location.replace('https://apps.apple.com/app/id1502864085');
+}
+</script>
+
+</body>
+</html>
